@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 let server = null;
 
-app.all('/hello/', (req, res) => {
+app.all('/hello2/', (req, res) => {
     res.write('hello');
     res.end();
 })
